@@ -1,0 +1,260 @@
+@font-face {
+    font-family: EuclidCircularA;
+    src: url(../font/EuclidCircularA-Light.ttf);
+}
+
+.more {
+    /* visibility: hidden; */
+     display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Times New Roman; */
+  font-family: EuclidCircularA;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    padding-left: 4%;
+    width: 100%;
+    padding: 37px 3.7vw 37px 3.7vw;
+    /* height: auto; */
+    /* margin: 0px auto;
+    position: relative; */
+}
+
+.less {
+    /* background-color: rgba(250, 0, 0, 0.1); */
+    /* width: 94%; */
+    width: 91.4vw;
+    /* height: auto; */
+
+ /* position: relative; */
+        /*top: 0%;
+    left: 1px; */
+    /* transform: translate(-50%); */
+
+}
+/* ========================header========================= */
+
+.header {
+    z-index: 1;
+    /* background-color: rgba(0, 250, 0, 0.5); */
+    height: 40px;
+    /* margin-top: 37px; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.26vw;
+    /* position: relative; */
+}
+
+.header .header_logo {
+    /* width: 153px; */
+    width: 44vw;
+    /* height: 36px; */
+    height: 10vw;
+}
+.header .header_logo a {
+    width: auto;
+    height: 10.3vw;
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+}
+.header .header_logo a img:nth-child(1) {
+    width: 10vw;
+    height: 10vw;
+    display: block;
+}
+.header .header_logo a img:nth-child(2) {
+    width: 29vw;
+    height: 6.6vw;
+    display: block;
+    margin-top: 1.8vw;
+}
+/* ====== */
+.header .header_button{
+    /* display: block; */
+    display: flex;
+    justify-content: flex-end;
+    width: 25.6vw;
+    height: 11.6vw;
+    /* box-sizing: border-box; */
+}
+.header .header_button a:nth-child(1) img {
+    width: 11.5vw;
+    height: 11.5vw;
+    display: block;
+    /* float: left; */
+}
+.header .header_button a:nth-child(2) img {
+    width: 11.5vw;
+    height: 11.5vw;
+    display: block;
+}
+
+/* ===========================investEasily============================== */
+.investEasily {
+    /* position: relative; */
+    margin-top: 6vw;
+    width: 100%;
+    z-index: -1;
+}
+
+.investEasily_rihgt {
+    opacity: 0;
+    width: 100%;
+}
+
+.investEasily_rihgt img {
+    width: 100%;
+}
+            /* ============== */
+
+.investEasily_left {
+    /* margin-top: 8px; */
+    margin-top: 2.1vw;
+}
+
+.investEasily_left .investEasily_left_first {}
+.investEasily_left .investEasily_left_first img {
+    width: 91.7vw;
+    height: 52.2vw;
+
+}
+/* .investEasily_left .investEasily_left_first h1 {
+    color: #0962E8;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    font-size: 8.53vw;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    border: 1px solid #002A66;
+
+    position: static;
+    width: 344px;
+    height: 108px;
+    left: calc(50% - 344px/2);
+    top: 0px;
+}
+.investEasily_left .investEasily_left_first h1 span {
+    color: rgb(0, 42, 102);
+}
+
+.investEasily_left .investEasily_left_first p {
+    margin-top: 4px;
+    margin-top: 1vw;
+    color: #4F4F4F;
+    color: red;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+} */
+                /* ======================== */
+
+.investEasily_left .investEasily_left_second {
+    /* margin-top: 20px; */
+    margin-top: 5.3vw;
+    width: 100%;
+}
+
+.investEasily_left .investEasily_left_second .store {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.investEasily_left .investEasily_left_second .store a {
+    display: block;
+    /* width: 100%; */
+}
+
+.investEasily_left .investEasily_left_second .store a img {
+    display: block;
+    width: 40vw;
+}
+
+.investEasily_left .investEasily_left_second > a {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5vw;
+    width: 91.4vw;
+    height: 17vw;
+    border-radius: 3.2vw;
+    /* background-color: #0962E8; */
+    background-color: rgba(9, 98, 232, 0);
+    margin-top: 3.2vw;
+}
+
+.investEasily_left .investEasily_left_second > a > span {
+    display: block;
+    height: 6.13vw;
+    /* margin-top: 5vw; */
+    color: #FFFFFF;
+    /* font-family: SF Pro Display; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.26vw;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* ======================================================= */
+.autoFollow {
+    width: 91.73vw;
+    height: 88vw;
+}
+
+.autoFollow .autoFollow_left {
+    width: 91.73vw;
+    height: 88vw;
+    margin-left: -3.7vw;
+}
+
+.autoFollow .autoFollow_left img {
+    width: 91.73vw;
+    height: 88vw;
+}
+
+.autoFollow .autoFollow_right {
+    width: 91.73vw;
+    margin-bottom: 12.8vw;
+}
+
+.autoFollow .autoFollow_right p:nth-child(1) {
+    /* font-family: Euclid Circular A; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.6vw;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #47646D;
+}
+.autoFollow .autoFollow_right p:nth-child(1) span {
+    color: #0962E8;
+}
+
+.autoFollow .autoFollow_right p:nth-child(2) {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.73vw;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #66778F;
+
+}
+
+.becomeInvestorEasy {
+
+}

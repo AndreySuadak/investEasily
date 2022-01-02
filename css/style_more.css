@@ -1,0 +1,296 @@
+@font-face {
+    font-family: EuclidCircularA;
+    src: url(../font/EuclidCircularA-Light.ttf);
+}
+
+.less {
+    /* visibility: hidden; */
+     display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Times New Roman; */
+  font-family: EuclidCircularA;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    /* background-color: green; */
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    position: relative;
+}
+
+.more {
+    /* background-color: rgba(200, 200, 200, 0.5); */
+    width: 1272px;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    /* background-color: rgba(9, 98, 232, 0.1); */
+}
+
+/* ======================header================================= */
+.header {
+    margin-top: 31px;
+    width: 1272px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header_logo {
+    margin-left: 154px;
+}
+
+.header .header_logo a img:nth-child(1) {
+    width: 47px;
+    height: 46px;
+}
+.header .header_logo a img:nth-child(2) {
+    position: absolute;
+    width: 135px;
+    height: 31px;
+    margin-left: 13px;
+    margin-top: 9px;
+}
+
+.header .header_button {
+    margin-right: 173px;
+    width: 117px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(9, 98, 232, 1);
+    padding: 8px 14px;
+    text-align: center;
+}
+
+.header .header_button a {
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* ==========================investEasily================================== */
+
+.investEasily {
+    width: 1272px;
+    margin-top: 83px;
+    padding-left: 156px;
+    padding-right: 51px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(9, 98, 232, 1); */
+    position: relative;
+}
+
+.investEasily .investEasily_left {
+    width: 470px;
+}
+
+.investEasily_left_first h1 {
+    color: #0962E8;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}
+
+.investEasily_left_first h1 span {
+    color: #47646D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}
+
+.investEasily_left_first p:nth-child(2) {
+    color: #0962E8;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}
+
+.investEasily_left_first p:nth-child(2) span:nth-child(1) {
+    color: #47646D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+}
+
+.investEasily_left_first p:nth-child(2) span::after {
+    content: '*';
+    color: #AEB3BB;
+}
+
+.investEasily_left_first p:nth-child(3) {
+    color: #062B61;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.investEasily_left_second {
+    Width: 260px;
+    margin-top: 24px;
+}
+
+#investEasily_left_first_p {
+    cursor: pointer;
+}
+.investEasily_left_second > a:nth-child(1) {
+    display: block;
+    width: 260px;
+    height: 54px;
+    background-color: rgba(9, 98, 232, 1);
+    border-radius: 10px;
+    /* padding: 18px 15px; */
+    padding: 17px 25px;
+}
+
+.investEasily_left_second a:nth-child(1) span {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.investEasily_left_second .store {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.investEasily_left_second .store a:nth-child(1) {}
+.investEasily_left_second .store a:nth-child(2) {}
+        /* ==== */
+
+#investEasily_rihgt {
+    width: 580px;
+    height: 480px;
+    opacity: 0;
+    /* background-color: rgba(9, 98, 9, 0.51); */
+}
+        /* ==== */
+.general_indicator {
+    visibility: hidden;
+    /* visibility: visible; */
+    /* background-color: rgba(); */
+    position: fixed;
+    top: 316px;
+    left: 419px;
+    content: '';
+    width: 222px;
+    height: 72px;
+    border-radius: 10px;
+    padding: 9px 16px;
+    color: #333342;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    z-index: 3;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.general_indicator::after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: -20px;
+    /* делаем все треугольники прозрачными */
+    border: 10px solid transparent;
+    /* нижний делаем видимым */
+    border-bottom: 10px solid #FFFFFF;
+    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15); */
+    border-radius: 0px;
+
+}
+
+.general_indicator .general_indicator_into {
+    /* content: 'Общий показатель по среднегодовой доходности стратегий'; */
+    font-size: 13px;
+    line-height: 130%;
+    letter-spacing: 0.001em;
+}
+
+
+/* ================================================= */
+
+.autoFollow {
+    width: 1272px;
+    height: 510px;
+    margin-top: 61px;
+    position: relative;
+    /* background-color: rgba(9, 98, 9, 0.1); */
+    /* padding-left: 156px;
+    padding-right: 51px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.autoFollow .autoFollow_left {
+    position: absolute;
+    top: 37px;
+    left: 156px;
+    width: 446px;
+    height: 450px;
+    /* background-color: rgba(9, 250, 5, 0.3); */
+    z-index: 2;
+    opacity: 0;
+}
+
+.autoFollow .autoFollow_right {
+    position: relative;
+    top: 0px;
+    left: 503px;
+    width: 724px;
+    height: 510px;
+    background-color: rgba(6, 43, 97, 0);
+    border-radius: 40px;
+    z-index: 1;
+    padding: 54px 123px 61px 135px;
+}
+
+.autoFollow .autoFollow_right > p:nth-child(1) {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}
+.autoFollow .autoFollow_right > p:nth-child(1) span {
+    color: #6AA6FF;
+}
+.autoFollow .autoFollow_right > p:nth-child(2) {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    margin-top: 12px;
+}
